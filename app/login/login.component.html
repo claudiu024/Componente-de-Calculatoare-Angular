@@ -1,0 +1,35 @@
+<div class="container">
+  <form class="example-form">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Email</mat-label>
+      <input matInput type="Email" [(ngModel)]="email" name="email" />
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Password</mat-label>
+      <input
+        matInput
+        [(ngModel)]="password"
+        [type]="showPassword ? 'text' : 'password'"
+        minLength="3"
+        name="password"
+      />
+      <mat-icon matSuffix (click)="togglePasswordVisibility()">
+        {{ showPassword ? "visibility_off" : "visibility" }}
+      </mat-icon>
+    </mat-form-field>
+
+    <div class="example-button-row">
+      <div class="example-button-row">
+        <button
+          mat-raised-button
+          type="submit"
+          color="primary"
+          (click)="onLogin()"
+        >
+          Login
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
