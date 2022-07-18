@@ -8,9 +8,13 @@ import {MatInputModule} from '@angular/material/input'
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { NavbarComponent } from './navbar/navbar.component';
-import { ProductComponent } from './product/product.component';
+import {MatCardModule} from '@angular/material/card';
+
+//import { ProductComponent } from './product/product.component';
 
 import { FormsModule } from '@angular/forms';
+
+
 
 
 @NgModule({
@@ -18,8 +22,10 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     LoginComponent,
     NavbarComponent,
-    ProductComponent,
-    routingComponent
+    routingComponent,
+    
+    //ProductComponent,
+   
   ],
   imports: [
     BrowserModule,
@@ -28,7 +34,10 @@ import { FormsModule } from '@angular/forms';
     MatInputModule,
     MatButtonModule,
     MatToolbarModule,
-    FormsModule
+    FormsModule,
+    MatCardModule
+   
+    
     
   ],
   providers: [],
