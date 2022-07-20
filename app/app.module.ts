@@ -9,7 +9,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { NavbarComponent } from './navbar/navbar.component';
 import {MatCardModule} from '@angular/material/card';
-
+import {MatTooltipModule} from '@angular/material/tooltip'
 
 //import { ProductComponent } from './product/product.component';
 

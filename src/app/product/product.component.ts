@@ -7,17 +7,19 @@ import { ProductServices } from '../services/product.service';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit {
-products: Product[]  = [];
+products:Product []=[];
   constructor(private productService:ProductServices) { }
 
   ngOnInit(): void {
-    this.products = this.productService.getProducts();
+    this.products=this.productService.getProducts();
   }
 
 }
+
 export interface Product{
-  id : number;
-  title: string;
+  id:number;
+  title:string;
   description:string;
   price:number;
+  image:string;
 }

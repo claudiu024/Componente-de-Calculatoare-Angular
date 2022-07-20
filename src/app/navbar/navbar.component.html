@@ -1,11 +1,22 @@
 <p>
   <mat-toolbar color="primary" class="navbar">
-      <div>Shop</div>
-      <div>
-          <span>Shopping Cart</span>
-          <button routerLink="/product">Product</button>
-          <button routerLink="/login">Login</button>
-          <span>Contact</span>
-      </div>
+    <!-- <div>Shop</div> -->
+    <div>
+      <!-- <span>Shopping Cart</span> -->
+      <button class="navbar_button" routerLink="/product">Procesoare</button>
+      <button class="navbar_button" routerLink="/product">Placi Video</button>
+      <button class="navbar_button" routerLink="/product">Placi de baza</button>
+      <button class="navbar_button" routerLink="/product">Memorii RAM</button>
+      <button class="navbar_button" routerLink="/product">SSD/HDD</button>
+      <button class="navbar_button" routerLink="/product">Carcase</button>
+
+
+      <button class="navbar_button" routerLink="/login">Login</button>
+      <button class="navbar_button" routerLink="/coscumparaturi" matTooltip="Shopping Cart">
+        <mat-icon aria-hidden="false">shopping_cart</mat-icon>
+      </button>
+
+      <span>Contact</span>
+    </div>
   </mat-toolbar>
 </p>

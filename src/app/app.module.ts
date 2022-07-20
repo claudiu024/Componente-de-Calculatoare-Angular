@@ -9,10 +9,12 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { NavbarComponent } from './navbar/navbar.component';
 import {MatCardModule} from '@angular/material/card';
-
+import {MatTooltipModule} from '@angular/material/tooltip'
 //import { ProductComponent } from './product/product.component';
-
+import {MatIconModule} from '@angular/material/icon';
 import { FormsModule } from '@angular/forms';
+import { CoscumparaturiComponent } from './coscumparaturi/coscumparaturi.component';
+import { CustomPipe } from './custom.pipe';
 
 
 
@@ -23,6 +25,8 @@ import { FormsModule } from '@angular/forms';
     LoginComponent,
     NavbarComponent,
     routingComponent,
+    CoscumparaturiComponent,
+    CustomPipe,
     
     //ProductComponent,
    
@@ -35,8 +39,9 @@ import { FormsModule } from '@angular/forms';
     MatButtonModule,
     MatToolbarModule,
     FormsModule,
-    MatCardModule
-   
+    MatCardModule,
+    MatTooltipModule,
+    MatIconModule
     
     
   ],

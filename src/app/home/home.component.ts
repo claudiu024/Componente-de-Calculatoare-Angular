@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 title:string="home title"
+public date=new Date 
 buttonDisable:boolean=true
 color:string="green"
   constructor() { }

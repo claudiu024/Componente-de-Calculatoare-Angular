@@ -1,0 +1,11 @@
+.navbar_button{
+    background-color: inherit;
+    color:white;
+    border:none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+.navbar_button:hover{
+    cursor: pointer;
+}
