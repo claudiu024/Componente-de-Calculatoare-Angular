@@ -15,6 +15,10 @@ import {MatIconModule} from '@angular/material/icon';
 import { FormsModule } from '@angular/forms';
 import { CoscumparaturiComponent } from './coscumparaturi/coscumparaturi.component';
 import { CustomPipe } from './custom.pipe';
+import { AddProductComponent } from './add-product/add-product.component';
+import { ChildComponent } from './child/child.component';
+import { ParentComponent } from './parent/parent.component';
+
 
 
 
@@ -27,7 +31,10 @@ import { CustomPipe } from './custom.pipe';
     routingComponent,
     CoscumparaturiComponent,
     CustomPipe,
-    
+    AddProductComponent,
+    ChildComponent,
+    ParentComponent,
+
     //ProductComponent,
    
   ],

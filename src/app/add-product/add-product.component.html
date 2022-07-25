@@ -1,0 +1,17 @@
+<form class="example-form">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Title</mat-label>
+      <input [(ngModel)]="title" matInput placeholder="Ex. Pizza" value="Sushi">
+    </mat-form-field>
+  
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Description</mat-label>
+      <textarea [(ngModel)]="description" matInput placeholder="Ex. It makes me feel..."></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Price</mat-label>
+        <input [(ngModel)]="price" matInput placeholder="Ex. It makes me feel..."/>
+      </mat-form-field>
+  </form>
+  <button>ADD</button>
